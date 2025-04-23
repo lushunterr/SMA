@@ -37,6 +37,6 @@ jobs:
           DB_PASSWORD: npg_Y8v0SiBjyOLW
           DB_HOST: p-small-band-a4mcmsuz-pooler.us-east-1.aws.neon.tech
           DB_PORT: 5432
-          DB_SSLMODE: enable
+          DB_SSLMODE: prefer
         run: |
           python -m pytest
