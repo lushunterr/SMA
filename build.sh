@@ -15,4 +15,4 @@ python SMA/manage.py collectstatic --no-input --clear
 python SMA/manage.py migrate
 
 # Start the application with Gunicorn
-# cd SMA && python -m gunicorn SMA.asgi:application -k uvicorn.workers.UvicornWorker
+cd SMA && python -m gunicorn SMA.asgi:application -k uvicorn.workers.UvicornWorker
